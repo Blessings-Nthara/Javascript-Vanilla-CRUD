@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Activity Selector - Loop 14</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <body>
+      <div class="selector-menu">
+        <a
+          id="linkid"
+          href="#"
+          onclick="viewContents('./images/living-room-couch-interior-room-584399.jpeg','Furniture','https://svgshare.com/i/L8h.svg','Denizli')"
+          ><img src="https://svgshare.com/i/LAF.svg" alt="event"
+        /></a>
+        <a
+          href="#"
+          onclick="viewContents('./images/pexels-photo.jpg','Museum','https://svgshare.com/i/L8h.svg','Denizli')"
+          class="current"
+          ><img src="https://svgshare.com/i/LAG.svg" alt="finance"
+        /></a>
+        <a
+          href="#"
+          onclick="viewContents('https://i.ibb.co/5M9Psvv/food.jpg','Restaurants','https://svgshare.com/i/L8h.svg','Denizli')"
+          class="current"
+          ><img src="https://svgshare.com/i/L9P.svg" alt="cafe"
+        /></a>
+        <a
+          href="#"
+          onclick="viewContents('./images/pexels-photo-1050244.jpeg','GiftShops','https://svgshare.com/i/L8h.svg','Denizli')"
+          class="current"
+          ><img src="https://svgshare.com/i/L9Z.svg" alt="gift"
+        /></a>
+        <a
+          href="#"
+          onclick="viewContents('./images/pexels-photo-3475680.jpeg','PetShops','https://svgshare.com/i/L8h.svg','Denizli')"
+          class="current"
+          ><img src="https://svgshare.com/i/L9s.svg" alt="pets"
+        /></a>
+      </div>
+
+      <div class="menu-container">
+        <div class="header-img">
+          <div class="overlay"></div>
+          <div class="food">
+            <h1 id="shop">Food</h1>
+            <div>
+              <img src="https://svgshare.com/i/L8h.svg" alt="location" />
+              <p>Madrid</p>
+            </div>
+          </div>
+        </div>
+        <ul class="list"></ul>
+        <button
+          onclick="addnew()"
+          type="button"
+          style="width: 100px; height: 40px; background-color: lightskyblue;"
+        >
+          Add</button
+        ><input
+          id="inpt"
+          type="text"
+          style="width: 200px; height: 40px;"
+          required
+        />
+        <p id="demo"></p>
+      </div>
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>
